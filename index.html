@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>login</title>
+		<style>
+			html,body,div,section,span{
+				padding:0px;
+				margin:0 auto;
+				font-family: "微软雅黑";
+			}
+			body{
+				background-image: url(img/bgbody.jpg);
+			    background-size:cover;
+			    background-repeat: no-repeat;
+			    font-size: 12px;
+			}
+			.im-content{
+				position: absolute;
+				top:0;
+				bottom:0;
+				left:0;
+				right:0;
+				margin: auto;
+				height:320px;
+				width:350px;
+				background: rgba(3, 155, 230, 0.7);
+				text-align: center;
+			}
+			.im-content div{
+				margin-top: 20px;
+			}
+			.im-content .im-login-title{
+				color:#fff;
+				font-size:22px;
+			}
+			.im-content .username input{
+				border:0px;
+				height:25px;
+				width:280px;
+				border-radius:4px;
+				background-color:rgba(255,255,255,0.5);
+				padding:5px 0px;
+				padding-left:37px;
+				color:#000;
+				font-size:
+			}
+			.im-content .password input{
+				border:0px;
+				height:25px;
+				width:280px;
+				border-radius:4px;
+				background-color:rgba(255,255,255,0.5);
+				padding:5px 0px;
+				padding-left:37px;
+				color:#000;
+				font-size:
+			}
+			.im-content .username{
+				position: relative;
+			}
+			.username img{
+				position:absolute;
+				top:5px;
+				left:25px;
+				width:25px;
+				height:25px;
+			}
+			.im-content .password{
+				position: relative;
+			}
+			.password img{
+				position:absolute;
+				top:5px;
+				left:25px;
+				width:25px;
+				height:25px;
+			}
+			.im-content .login-btn button{
+				width:315px;
+				height:40px;
+				background-color: #c7c742;
+				border:0px;
+				color:#FFFFFF;
+				font-size:14px;
+				cursor: pointer;
+				font-family: "microsoft yahei";
+			}
+			.im-content .forget-remmber{
+				position: relative;
+				color:#fff;
+			}
+			.im-content .forget-remmber .remeberpwd{
+				float: left;
+				margin-left:40px;
+			}
+			.im-content .forget-remmber .remeberpwd input{
+				position: absolute;
+				left:20px;
+			}
+			.im-content .forget-remmber .forgetpwd{
+				float: right;
+				margin-right:25px;
+			}
+			.footer{
+				position: fixed;
+				bottom:20px;
+				color:#fff;
+				margin: auto;
+				left:0;
+				right:0;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<section class="im-content">
+			<div class="im-login-title">
+				用户登录
+			</div>
+			<div class="username">
+				<span class="user-img"><img src="img/user (2).png" /></span>
+				<input type="text" id="username" placeholder="用户名"/>
+			</div>
+			<div class="password">
+				<span class="password-img"><img src="img/password (2).png" /></span>
+				<input type="password" id="password" placeholder="密码" />
+			</div>
+			<div class="login-btn">
+				<button class="btn">登录</button>
+			</div>
+			<div class="forget-remmber">
+				<div class="remeberpwd">
+					<input type="checkbox" />记住密码
+				</div>
+				<div class="forgetpwd">
+					忘记密码?
+				</div>
+			</div>
+		</section>
+		<div class="footer">
+			版权所有@上海波克网络技术有限公司
+		</div>
+	</body>
+</html>
